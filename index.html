@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="slide-container">
+    <div class="slide"> <!-- 첫 번째 슬라이드 -->
+        <div class="content content-padded line-h">
+            <h1>김우휘 Portfolio</h1>
+            <p>
+              저는 프론트엔드 웹개발자를 지망합니다.
+              이전에 게임 개발에 관심이 있어서 실제로 게임을 개발하고 출시해봤습니다.
+              하지만 사람들에게 재미보다는 도움이 되는 어플리케이션을 제공하고 싶다는 생각이 들어 웹개발자로 진로를 바꾸게 되었습니다.
+              제 MBTI 성격 유형은 INTJ로, 개발자가 성격에도 맞을 거라고 생각합니다.
+              제 강점은 실행력이 뛰어난 것과 의미 있는 일이라면 끈기를 가지고 끝까지 완수하는 것입니다.
+            </p>
+        </div>
+    </div>
+    <div class="slide"> <!-- 두 번째 슬라이드 -->
+        <div class="content">
+            <h1>About me</h1>
+            <div class="horizontal gap-6 content-left">
+              <img src="./images/profile.jpg" height="250" width="200" class="rounded-full border-4 border-white" alt="Profile Image">
+              <div class="text-3xl">
+                <li>이름: 김우휘</li>
+                <li>생년월일: 2001.02.08.</li>
+                <li>이메일: gear0128@naver.com</li>
+                <li>출신대학교: 가천대학교</li>
+                <li><img src="./images/github-logo.png" height="30" width="30"><a href="https://github.com/DevPikimon">Github</a></li>
+                <li><img src="./images/tistory-logo.png" height="30" width="30"><a href="https://pikimon.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EA%B3%B5%EB%B6%80">Blog</a></li></div>
+            </div>
+        </div>
+    </div>
+    <div class="slide"> <!-- 세 번째 슬라이드 -->
+        <div class="content">
+          <h1>My Main Skills</h1>
+          <div class="container grid items-center justify-center gap-6 px-4 md:px-6 lg:gap-10">
+            <div class="space-y-4">
+              <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4">
+                <div id="card-javascript" class="group card relative overflow-hidden rounded-lg bg-background shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative p-4 flex flex-col items-center justify-center gap-2">
+                    <div id="code-icon"></div>
+                    <h3 class="text-lg font-semibold">Html</h3>
+                    <p class="text-sm text-muted-foreground">
+                      ES6+ 기능과 널리 사용되는 프레임워크/라이브러리를 포함한 최신 JavaScript에 능숙합니다.
+                    </p>
+                  </div>
+                </div>
+                <div id="card-css" class="group card relative overflow-hidden rounded-lg bg-background shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative p-4 flex flex-col items-center justify-center gap-2">
+                    <div id="css-icon"></div>
+                    <h3 class="text-lg font-semibold">CSS</h3>
+                    <p class="text-sm text-muted-foreground">
+                      CSS를 사용하여 시각적으로 매력적이고 반응성이 뛰어난 사용자 인터페이스를 만드는 데 능숙합니다.
+                    </p>
+                  </div>
+                </div>
+                <div id="card-javascript" class="group card relative overflow-hidden rounded-lg bg-background shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative p-4 flex flex-col items-center justify-center gap-2">
+                    <div id="code-icon"></div>
+                    <h3 class="text-lg font-semibold">JavaScript</h3>
+                    <p class="text-sm text-muted-foreground">
+                      ES6+ 기능과 널리 사용되는 프레임워크/라이브러리를 포함한 최신 JavaScript에 능숙합니다.
+                    </p>
+                  </div>
+                </div>
+                <div id="card-react" class="group card relative overflow-hidden rounded-lg bg-background shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative p-4 flex flex-col items-center justify-center gap-2">
+                    <div id="codepen-icon"></div>
+                    <h3 class="text-lg font-semibold">React</h3>
+                    <p class="text-sm text-muted-foreground">
+                      React를 사용하여 현대적이고 반응성이 뛰어난 웹 애플리케이션을 구축한 경험이 있습니다.
+                    </p>
+                  </div>
+                </div>
+                <div id="card-git" class="group card relative overflow-hidden rounded-lg bg-background shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative p-4 flex flex-col items-center justify-center gap-2">
+                    <div id="git-icon"></div>
+                    <h3 class="text-lg font-semibold">Git</h3>
+                    <p class="text-sm text-muted-foreground">
+                      Git을 활용한 버전 관리 및 협업 경험이 있습니다.
+                    </p>
+                  </div>
+                </div>
+                <div id="card-nodejs" class="group card relative overflow-hidden rounded-lg bg-background shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative p-4 flex flex-col items-center justify-center gap-2">
+                    <div id="network-icon"></div>
+                    <h3 class="text-lg font-semibold">Python</h3>
+                    <p class="text-sm text-muted-foreground">
+                      Node.js를 사용하여 확장 가능하고 효율적인 서버 측 애플리케이션을 구축한 경험이 있습니다.
+                    </p>
+                  </div>
+                </div>
+                <div id="card-databases" class="group card relative overflow-hidden rounded-lg bg-background shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                  <div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative p-4 flex flex-col items-center justify-center gap-2">
+                    <div id="database-icon"></div>
+                    <h3 class="text-lg font-semibold">Databases</h3>
+                    <p class="text-sm text-muted-foreground">
+                      관계형(SQL), NoSQL 등 다양한 데이터베이스 작업에 능숙합니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="slide"> <!-- 네 번째 슬라이드 -->
+        <div class="content">
+            <h1>Projects</h1>
+            <div>
+              <div class="controls">
+                <button id="flip-all">Flip All</button>
+              </div>
+              <div class="card-container">
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">로그인 페이지</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 1<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">회원가입 페이지</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 2<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">Todo 앱</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">React로 구현한 Todo 앱<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">SNS 기본페이지</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 4<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">SNS 프로필 페이지</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 5<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">e커머스 사이트 UI</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 6<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">Premium 유도 페이지</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 7<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">Drag & Drop 기능</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 8<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">Card 9</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 9<br>url</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                            <p class="text-sm">Card 10</p>
+                        </div>
+                        <div class="card-back">
+                            <p class="text-sm">Detail about Card 10<br>url</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="slide"> <!-- 다섯 번째 슬라이드 -->
+      <div class="content">
+        <h1>Contact</h1>
+        <div class="flex flex-col items-center justify-center w-full h-full py-12 md:py-24">
+          <div class="max-w-md w-full space-y-6">
+            <form class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                  <label for="name">이름</label>
+                  <input id="name" placeholder="이름을 입력" />
+                </div>
+                <div class="space-y-2">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" placeholder="이메일을 입력" />
+                </div>
+              </div>
+              <div class="space-y-2">
+                <label for="subject">문의할 문제</label>
+                <input id="subject" placeholder="문제를 입력" />
+              </div>
+              <div class="space-y-2">
+                <label for="message">내용</label>
+                <textarea id="message" placeholder="문의 내용을 입력" class="min-h-[150px]"></textarea>
+              </div>
+              <button type="submit" class="w-full">
+                문의하기
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <!-- 새로운 슬라이드는 여기에 추가 -->
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
